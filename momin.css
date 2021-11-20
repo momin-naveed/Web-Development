@@ -7,6 +7,8 @@
     background-color: #B983FF;
     position: relative;
     padding-top: 100px;
+    font-family: 'Lobster', cursive;
+    font-size: 30px;
     /* padding: 20px;
     margin: 10px; */
     /* width: 200px;
@@ -16,25 +18,19 @@
 }
 
 .middle-container {
-    background-color: #b6d408;
-    /* padding: 20px;
-    margin: 10px; */
-    width: 200px;
-    height: 200px;
-    /* border: 2px solid; */
-    /* position: relative;
-    left: 200px; */
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
-.bottom-container {
-    background-color: #2cfdf3;
-    /* padding: 20px;
-    margin: 10px; */
-    width: 200px;
-    height: 200px;
-    /* border: 2px solid; */
-    /* position: absolute;
-    top: 100px; */
+.bottom-container {}
+
+.profile img {
+    width: 250px;
+}
+
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
 }
 
 body {
@@ -55,13 +51,15 @@ h1, p {
 .pro {
     text-decoration: underline;
 }
-.bottom-cloud{
+
+.bottom-cloud {
     position: absolute;
     left: 300px;
     bottom: 300px;
 }
-.top-cloud{
+
+.top-cloud {
     position: absolute;
     top: 50px;
-    right:300px;
+    right: 300px;
 }
