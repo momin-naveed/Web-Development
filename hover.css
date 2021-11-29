@@ -1,0 +1,63 @@
+body {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+}
+
+.btn {
+    font-family: Helvetica;
+    padding: 20px 60px;
+    text-decoration: none;
+    color: #E26A2C;
+    position: relative;
+}
+
+.btn span {
+    position: absolute;
+    background-color: #e26a2c;
+    transition: all 0.2s ease-out;
+}
+
+.btn span:nth-child(odd) {
+    width: 0;
+    height: 2px;
+}
+
+.btn span:nth-child(even) {
+    height: 0;
+    width: 2px;
+}
+
+.btn span:first-child {
+    left: 0;
+    top: 0;
+}
+
+.btn span:nth-child(2) {
+    right: 0;
+    top: 0;
+    transition-delay: 0.2s;
+}
+
+.btn span:nth-child(3) {
+    right: 0;
+    bottom: 0;
+    transition-delay: 0.4s;
+}
+
+.btn span:last-child {
+    left: 0;
+    bottom: 0;
+    transition-delay: 0.6s;
+}
+
+
+.btn:hover span:nth-child(odd) {
+    width: 100%;
+}
+
+.btn:hover span:nth-child(even) {
+    height: 100%;
+}
