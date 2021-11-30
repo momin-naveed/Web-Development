@@ -11,3 +11,11 @@ console.log(name);
 let firstName = 'Momin';
 let lastName = 'Naveed';
 console.log(firstName, lastName);
+// var n = Math.random();
+// console.log(n);
+//lovescore calculator
+prompt("What is your name?");
+prompt("What is their name?");
+var loveScore = Math.random() * 100;
+loveScore = Math.floor(loveScore) + 1;
+alert("Your love score is " + loveScore + "%")
