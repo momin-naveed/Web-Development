@@ -14,5 +14,15 @@ function isLeap(year) {
         return "Not leap year";
     }
 }
-// isLeap(2000);
 console.log(isLeap(2001))
+
+var guestList = ["Momin", "Saim", "Adeel", "Wahab"]
+console.log(guestList.length);
+console.log(guestList[0]);
+var guestName = prompt("What is your name?")
+if (guestList.includes(guestName)) {
+    alert("Welcome!")
+}
+else {
+    alert("Sorry, may be next time.")
+}
