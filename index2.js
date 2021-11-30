@@ -6,3 +6,8 @@ console.log(+new Date())
 console.log(35.354 | 0)
 // use es6 to remove duplicate from array
 console.log([...new Set([1, 2, 2, 3, 4, 4, 5])])
+let name = 'momin';
+console.log(name);
+let firstName = 'Momin';
+let lastName = 'Naveed';
+console.log(firstName, lastName);
