@@ -6,4 +6,3 @@ function whosPaying(names) {
 }
 console.log(whosPaying(["Momin", "Adeel", "Saim", "Zohaib", "Wahab"]));
 
-// whosPaying("adeel")
