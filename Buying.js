@@ -4,5 +4,5 @@ function whosPaying(names) {
     var randomPerson = names[randomPersonPosition];
     return randomPerson + " is going to lunch today!"
 }
-console.log(whosPaying(["Momin", "Adeel", "Saim", "Zohaib", "Wahab"]));
+console.log(whosPaying(["Momin", "Imran", "Saim", "Zohaib", "Wahab"]));
 
