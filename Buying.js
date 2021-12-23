@@ -5,4 +5,3 @@ function whosPaying(names) {
     return randomPerson + " is going to lunch today!"
 }
 console.log(whosPaying(["Momin", "Adeel", "Saim", "Zohaib", "Wahab"]));
-
